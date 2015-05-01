@@ -3,16 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: TERAKOYA
+subtitle: IT技術情報公開サイト
+description: Webもアプリも会社経営も何でもやってます。
+author: Ryosuke Takahashi
+language: ja
 timezone:
+avatar: https://lh6.googleusercontent.com/-DOUkEIKqkk0/U84YAs960II/AAAAAAAACX4/4T1zUAkmBac/s700-no/logo_retina.png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.image-pit.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,6 +69,6 @@ theme: icarus
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:imagepit/imagepit.io.git
+  repo: git@github.com:terakoya-it/terakoya-it.github.io.git
   branch: master
   message: hexo deploy
